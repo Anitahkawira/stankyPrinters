@@ -1,5 +1,5 @@
 .panel1{
-    background-color: #7f8185;
+    background-color: #222;
     height: 250px;
 }
 .panel1 h1{
@@ -15,8 +15,10 @@
     padding-top: 20px;
 }
 .panel2{
-    background-color: rgba(51, 51, 51, 0.7);
+    background-color: #333;
     height: 50px;
+    /*color: #0f27dd;*/
+    color: #f8f008;
 }
 .panel2 h4{
     margin: 0px;
@@ -36,11 +38,11 @@
 .panel3 hr{
     width: 50px;
     height: 5px;
-    background-color: #becff6;
+    background-color: #f8f008;
     border-style: none;
 }
 .panel3 p{
-    margin-top: 30px;
+    margin-top: 30px; 
 }
 .about{
     float: left;
@@ -69,7 +71,7 @@
 .panel4 hr{
     width: 50px;
     height: 5px;
-    background-color: #becff6;
+    background-color: #f8f008;
     border-style: none;
 }
 .panel5{
@@ -97,12 +99,12 @@ input[type=number],select{
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-
+    /*color: #0f27dd;*/
 }
 input[type=submit] {
     width: 1000px;
-    background-color: #e33203;
-    color: white;
+    background-color: #f8f008;
+    color: #0f27dd;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -119,9 +121,11 @@ input[type=submit]:hover {
 .panel6 p{
     text-align: center;
     margin-top: 50px;
+    color: #0f27dd;
 }
 .layer {
-    background-color: rgba(51, 51, 51, 0.7);
+    /*background-color: rgba(51, 51, 51, 0.7);*/
+    background-color: #222;
     position: absolute;
     height: 200px;
     width: 100%;
